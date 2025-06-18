@@ -4,6 +4,7 @@ import DoubleCurvedText from "../../atoms/doubleCurveTeks"
 
 const HeroBanner = () => {
     const navigate = useNavigate()
+    const base = import.meta.env.BASE_URL;
     const viewCurveText = (type) => {
         return(
             <div className="absolute top-1  transform -transform-x-1/2 h-27 w-27 flex flex-col items-center gap-2 justify-center rounded-full">
@@ -15,7 +16,7 @@ const HeroBanner = () => {
         <>
         
         <section className="relative h-[460px] w-full rounded-b-4xl flex items-center justify-center">
-            <img src="/assets/bg-2.jpg" alt="banner " 
+            <img src={`${base}assets/bg-2.jpg`} 
             className="h-full w-full rounded-4xl object-cover shadow-md"/>
             <div className="absolute bg-(--bg-primary-cray) h-32 w-32
                              rounded-full -bottom-18 -translate-x-1/2 transform left-1/2"/>
@@ -29,12 +30,12 @@ const HeroBanner = () => {
             <div className="absolute right-4 bottom-4 flex flex-col gap-6 max-md:bottom-14 ">
                 <CardMedium 
                 title= "skill"
-                bgImg={"/assets/unnamed.jpg"}
+                bgImg={`${base}icons/unnamed.jpg`}
                 onClick={()=> navigate('/skills')}
                 />
                 <CardMedium 
                 title= "about"
-                bgImg={"/assets/fajar.jpg"}
+                bgImg={`${base}assets/fajar.jpg`}
                 onClick={()=> navigate('/about')}
                 />
             </div>

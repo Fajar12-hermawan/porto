@@ -1,128 +1,122 @@
+const base = import.meta.env.BASE_URL;
+
 export const listSkills = [
   {
     name: "javaScript",
-    icon: "/icons/js.png",
+    icon: `${base}icons/js.png`,
     link: "https://www.javascript.com/",
   },
-  { name: "React", icon: "/icons/react.svg", link: "https://reactjs.org/" },
+  {
+    name: "React",
+    icon: `${base}icons/react.svg`,
+    link: "https://reactjs.org/",
+  },
   {
     name: "Tailwind",
-    icon: "/icons/tailwind.png",
+    icon: `${base}icons/tailwind.png`,
     link: "https://tailwindcss.com/",
   },
   {
     name: "Phyton",
-    icon: "/icons/phyton.png",
+    icon: `${base}icons/phyton.png`,
     link: "https://www.python.org/",
   },
   {
     name: "Laravel",
-    icon: "/icons/laravel.png",
+    icon: `${base}icons/laravel.png`,
     link: "https://www.laravel.com/",
   },
   {
     name: "MongoDb",
-    icon: "/icons/mongodb.png",
+    icon: `${base}icons/mongodb.png`,
     link: "https://www.mongodb.com/",
   },
   {
     name: "PostgreSQL",
-    icon: "/icons/postgress.png",
+    icon: `${base}icons/postgress.png`,
     link: "https://www.posgresql.com/",
   },
-  {
-    name: "PHP",
-    icon: "/icons/php.png",
-    link: "https://www.php.net/",
-  },
+  { name: "PHP", icon: `${base}icons/php.png`, link: "https://www.php.net/" },
   {
     name: "Flutter",
-    icon: "/icons/flutter.png",
+    icon: `${base}icons/flutter.png`,
     link: "https://www.flutter.dev/",
   },
   {
     name: "Java",
-    icon: "/icons/java.png",
+    icon: `${base}icons/java.png`,
     link: "https://www.java.com/",
   },
   {
     name: "Ruby",
-    icon: "/icons/ruby.png",
+    icon: `${base}icons/ruby.png`,
     link: "https://www.ruby-lang.org/",
   },
   {
     name: "C++",
-    icon: "/icons/c++.png",
+    icon: `${base}icons/c++.png`,
     link: "https://www.isocpp.org/",
   },
   {
     name: "Golang",
-    icon: "/icons/golang.png",
+    icon: `${base}icons/golang.png`,
     link: "https://www.go.dev/",
   },
-  {
-    name: "Vue",
-    icon: "/icons/vue.png",
-    link: "https://www.vuejs.dev/",
-  },
+  { name: "Vue", icon: `${base}icons/vue.png`, link: "https://www.vuejs.dev/" },
   {
     name: "Docker",
-    icon: "/icons/docker.png",
+    icon: `${base}icons/docker.png`,
     link: "https://www.docker.com/",
   },
   {
     name: "Angular",
-    icon: "/icons/angular.png",
+    icon: `${base}icons/angular.png`,
     link: "https://www.angular.dev/",
   },
   {
     name: "Typescript",
-    icon: "/icons/typescript.png",
+    icon: `${base}icons/typescript.png`,
     link: "https://www.typescriptlang.dev/",
   },
-  {
-    name: "Lua",
-    icon: "/icons/lua.png",
-    link: "https://www.lua.org/",
-  },
+  { name: "Lua", icon: `${base}icons/lua.png`, link: "https://www.lua.org/" },
   {
     name: "Cypress",
-    icon: "/icons/cypress.png",
+    icon: `${base}icons/cypress.png`,
     link: "https://www.cypress.io/",
   },
   {
     name: "MySQL",
-    icon: "/icons/mysql.png",
+    icon: `${base}icons/mysql.png`,
     link: "https://www.mysql.com/",
   },
 ];
 
 export const listIndustries = [
-  { name: "facabook", icon: "/icons/facebook.png" },
-  { name: "google", icon: "/icons/google.png" },
-  { name: "tokopedia", icon: "/icons/tokopedia.png" },
-  { name: "amazon", icon: "/icons/amazon.png" },
+  { name: "facabook", icon: `${base}icons/facebook.png` },
+  { name: "google", icon: `${base}icons/google.png` },
+  { name: "tokopedia", icon: `${base}icons/tokopedia.png` },
+  { name: "amazon", icon: `${base}icons/amazon.png` },
 ];
 
 export const listProjects = [
   {
     title: "Darkblade Studio – Web Platform Development",
-    desc: "Developed a fully responsive and scalable web platform for a fantasy game studio. Implemented React.js with Tailwind CSS for rapid UI building, and integrated backend APIs for player stats, login, and live leaderboards. Optimized for performance and accessibility across all devices.",
-    background: "/assets/banner-2.jpg",
+    desc: "Developed a fully responsive and scalable web platform for a fantasy game studio...",
+    background: `${base}icons/banner-2.jpg`,
     list_tech: [
-      { name: "javaScript", icon: "/icons/js.png" },
-      { name: "React", icon: "/icons/react.svg" },
-      { name: "Tailwind", icon: "/icons/tailwind.png" },
+      { name: "javaScript", icon: `${base}icons/js.png` },
+      { name: "React", icon: `${base}icons/react.svg` },
+      { name: "Tailwind", icon: `${base}icons/tailwind.png` },
     ],
   },
   {
     title: "Personal Developer Portfolio – GSAP & 3D UI",
-    desc: "Created an animated portfolio site with GSAP scroll animations and interactive 3D sections using Three.js. Included custom-built CMS for easy content updates. Achieved Lighthouse performance score of 98+. Built with SEO, responsive design, and accessibility in mind.",
-    background: "/assets/bannner-1.jpg",
+    desc: "Created an animated portfolio site with GSAP scroll animations and interactive 3D sections...",
+    background: `${base}icons/bannner-1.jpg`,
     list_tech: [
-      { name: "React", icon: "/icons/react.svg" },
-      { name: "Tailwind", icon: "/icons/tailwind.png" },
-      { name: "javaScript", icon: "/icons/js.png" },
+      { name: "React", icon: `${base}icons/react.svg` },
+      { name: "Tailwind", icon: `${base}icons/tailwind.png` },
+      { name: "javaScript", icon: `${base}icons/js.png` },
     ],
   },
 ];

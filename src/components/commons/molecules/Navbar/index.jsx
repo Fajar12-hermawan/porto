@@ -13,6 +13,7 @@ const Navbar = () => {
   const [search, setSearch]= useState("")
   const [isOpen, setIsOpen] = useState(false);
   const navigate = useNavigate();
+  const base = import.meta.env.BASE_URL;
 
     return(
         <>
@@ -37,7 +38,7 @@ const Navbar = () => {
           <BoxProfile
           name={'fajar hermawan'}
           onClick={() => console.log("profile")}
-          picture={"/assets/unnamed.jpg"}
+          picture={`${base}icons/unnamed.jpg`}
           />
           </section>
         </header>
