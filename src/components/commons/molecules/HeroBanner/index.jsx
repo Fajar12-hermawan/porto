@@ -15,7 +15,7 @@ const HeroBanner = () => {
         <>
         
         <section className="relative h-[460px] w-full rounded-b-4xl flex items-center justify-center">
-            <img src={`${base}assets/bg-2.jpg`} 
+            <img src={"/assets/bg-2.jpg"} 
             className="h-full w-full rounded-4xl object-cover shadow-md"/>
             <div className="absolute bg-(--bg-primary-cray) h-32 w-32
                              rounded-full -bottom-18 -translate-x-1/2 transform left-1/2"/>
@@ -29,12 +29,12 @@ const HeroBanner = () => {
             <div className="absolute right-4 bottom-4 flex flex-col gap-6 max-md:bottom-14 ">
                 <CardMedium 
                 title= "skill"
-                bgImg={`/icons/unnamed.jpg`}
+                bgImg={"/icons/unnamed.jpg"}
                 onClick={()=> navigate('/skills')}
                 />
                 <CardMedium 
                 title= "about"
-                bgImg={`/assets/fajar.jpg`}
+                bgImg={"/assets/fajar.jpg"}
                 onClick={()=> navigate('/about')}
                 />
             </div>
