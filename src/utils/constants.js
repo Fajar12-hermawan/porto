@@ -108,7 +108,7 @@ export const listProjects = [
   {
     title: "Darkblade Studio – Web Platform Development",
     desc: "Developed a fully responsive and scalable web platform for a fantasy game studio. Implemented React.js with Tailwind CSS for rapid UI building, and integrated backend APIs for player stats, login, and live leaderboards. Optimized for performance and accessibility across all devices.",
-    background: "/images/bg-2.webp",
+    background: "/assets/banner-2.jpg",
     list_tech: [
       { name: "javaScript", icon: "/icons/js.png" },
       { name: "React", icon: "/icons/react.svg" },
@@ -118,7 +118,7 @@ export const listProjects = [
   {
     title: "Personal Developer Portfolio – GSAP & 3D UI",
     desc: "Created an animated portfolio site with GSAP scroll animations and interactive 3D sections using Three.js. Included custom-built CMS for easy content updates. Achieved Lighthouse performance score of 98+. Built with SEO, responsive design, and accessibility in mind.",
-    background: "/images/bg-3.webp",
+    background: "/assets/bannner-1.jpg",
     list_tech: [
       { name: "React", icon: "/icons/react.svg" },
       { name: "Tailwind", icon: "/icons/tailwind.png" },
