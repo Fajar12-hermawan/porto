@@ -4,7 +4,6 @@ import DoubleCurvedText from "../../atoms/doubleCurveTeks"
 
 const HeroBanner = () => {
     const navigate = useNavigate()
-    const base = import.meta.env.BASE_URL;
     const viewCurveText = (type) => {
         return(
             <div className="absolute top-1  transform -transform-x-1/2 h-27 w-27 flex flex-col items-center gap-2 justify-center rounded-full">
