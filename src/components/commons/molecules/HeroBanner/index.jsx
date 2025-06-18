@@ -30,12 +30,12 @@ const HeroBanner = () => {
             <div className="absolute right-4 bottom-4 flex flex-col gap-6 max-md:bottom-14 ">
                 <CardMedium 
                 title= "skill"
-                bgImg={`${base}icons/unnamed.jpg`}
+                bgImg={`/icons/unnamed.jpg`}
                 onClick={()=> navigate('/skills')}
                 />
                 <CardMedium 
                 title= "about"
-                bgImg={`${base}assets/fajar.jpg`}
+                bgImg={`/assets/fajar.jpg`}
                 onClick={()=> navigate('/about')}
                 />
             </div>
